@@ -16,3 +16,22 @@ testing 123
   
   </body>
 
+
+  
+  /* CLASS called "box" */
+  .box{
+  border: 1px solid gray;
+  height: 50 px;
+  width: 50 px;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: gray;
+  text-align: center;
+  background-color: orange;
+  }
+  .box:hover{
+  background: red;
+  transition: all 2s;
+  }
